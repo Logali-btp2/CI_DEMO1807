@@ -1,0 +1,2018 @@
+#2025 07 18 12:10:51.538#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Operation ID: 3f550867-63d0-11f0-86e9-eeee0a8debe6#
+#2025 07 18 12:10:51.570#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Process environment: {
+  "SKIP_SSL_VALIDATION" : "false",
+  "FLOWABLE_JOB_EXECUTOR_MAX_THREADS" : "32",
+  "VERSION" : "2.27.1",
+  "BASIC_AUTH_ENABLED" : "true",
+  "FLOWABLE_JOB_EXECUTOR_QUEUE_CAPACITY" : "16",
+  "FLOWABLE_JOB_EXECUTOR_CORE_THREADS" : "8"
+}#
+#2025 07 18 12:10:51.570#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Current user: training2@logaligroup.com#
+#2025 07 18 12:10:51.570#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Client space: dev#
+#2025 07 18 12:10:51.570#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Client organization: org-devna-5lq5#
+#2025 07 18 12:10:51.570#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#http-nio-0.0.0.0-8080-exec-4#
+[XS2StartProcessListener] Process variables: {
+  "abortOnError" : false,
+  "mtaId" : "fiori",
+  "keepFiles" : false,
+  "noFailOnMissingPermissions" : false,
+  "skipAppDigestCalculation" : false,
+  "deleteServiceBrokers" : false,
+  "appArchiveId" : "bdf8ff4c-58d5-4046-9797-ec7c0ac55ad7",
+  "deleteServiceKeys" : false,
+  "noRestartSubscribedApps" : false,
+  "noStart" : false,
+  "deleteServices" : false
+}#
+#2025 07 18 12:10:51.638#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2445#
+[ValidateDeployParametersStep] Executing task "validateParametersTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:51.638#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2445#
+[ValidateDeployParametersStep] Validating parameters...#
+#2025 07 18 12:10:51.642#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2445#
+[ValidateDeployParametersStep] Size of mtars is 7,264,342 and size of extension descriptors is 0#
+#2025 07 18 12:10:51.642#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2445#
+[ValidateDeployParametersStep] Archive was not split! Total size in bytes: 7,264,342#
+#2025 07 18 12:10:51.642#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2445#
+[ValidateDeployParametersStep] Deploying in org "org-devna-5lq5" and space "dev"#
+#2025 07 18 12:10:51.649#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2445#
+[ValidateDeployParametersStep] Parameters validated#
+#2025 07 18 12:10:51.649#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2445#
+Step "Validate Parameters" finished#
+#2025 07 18 12:10:51.697#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[DeleteRemainingFileParts] Executing task "deleteRemainingFileParts" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:51.698#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+Step "Delete Remaining File Parts" finished#
+#2025 07 18 12:10:51.745#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[XS2ProcessMtaArchiveStep] Executing task "processArchiveTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:51.747#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[XS2ProcessMtaArchiveStep] Processing MTA archive...#
+#2025 07 18 12:10:51.747#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[XS2ProcessMtaArchiveStep] MTA Archive ID: bdf8ff4c-58d5-4046-9797-ec7c0ac55ad7#
+#2025 07 18 12:10:51.990#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[XS2ProcessMtaArchiveStep] MTA Descriptor length: 1,649#
+#2025 07 18 12:10:51.990#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[XS2ProcessMtaArchiveStep] MTA Archive Modules: [fiori-approuter, fiori_ui_deployer]#
+#2025 07 18 12:10:51.990#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[XS2ProcessMtaArchiveStep] MTA Archive Requires: []#
+#2025 07 18 12:10:51.990#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[XS2ProcessMtaArchiveStep] MTA Archive Resources: [uaa_fiori]#
+#2025 07 18 12:10:52.004#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[XS2ProcessMtaArchiveStep] MTA archive processed#
+#2025 07 18 12:10:52.004#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+Step "Process Archive" finished#
+#2025 07 18 12:10:52.062#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[ProcessMtaExtensionDescriptorsStep] Executing task "processExtensionDescriptorsTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:52.064#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[ProcessMtaExtensionDescriptorsStep] Processing MTA extension descriptors...#
+#2025 07 18 12:10:52.064#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[ProcessMtaExtensionDescriptorsStep] Provided extension descriptors: [ ]#
+#2025 07 18 12:10:52.064#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[ProcessMtaExtensionDescriptorsStep] No extension descriptors in use#
+#2025 07 18 12:10:52.064#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[ProcessMtaExtensionDescriptorsStep] MTA extension descriptors processed#
+#2025 07 18 12:10:52.064#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+Step "Process Extension Descriptors" finished#
+#2025 07 18 12:10:52.124#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2449#
+[DetectMtaSchemaVersionStep] Executing task "detectSchemaVersionTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:52.125#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2449#
+[DetectMtaSchemaVersionStep] Detecting MTA major schema version...#
+#2025 07 18 12:10:52.127#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2449#
+[DetectMtaSchemaVersionStep] Detected MTA schema version: "3"#
+#2025 07 18 12:10:52.134#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2449#
+Step "Detect Schema Version" finished#
+#2025 07 18 12:10:52.186#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2450#
+[MergeDescriptorsStep] Executing task "mergeDescriptorsTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:52.187#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2450#
+[MergeDescriptorsStep] Validating and merging descriptors...#
+#2025 07 18 12:10:52.190#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2450#
+[MergeDescriptorsStep] Merged deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.2.0",
+  "id" : "fiori",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori-approuter",
+    "type" : "javascript.nodejs",
+    "path" : "fiori-approuter",
+    "properties" : { },
+    "parameters" : {
+      "disk-quota" : "256M",
+      "memory" : "256M"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori_html_repo_runtime",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "uaa_fiori",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori-destination-service",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "ui5",
+        "forwardAuthToken" : "********",
+        "url" : "https://ui5.sap.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori-approuter",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_ui_deployer",
+    "type" : "com.sap.application.content",
+    "path" : "fiori_ui_deployer",
+    "properties" : { },
+    "parameters" : { },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori_html_repo_host",
+      "properties" : { },
+      "parameters" : {
+        "content-target" : true
+      },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori_ui_deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_html_repo_runtime",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "service-plan" : "app-runtime",
+      "type" : "managed-service",
+      "service" : "html5-apps-repo"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "uaa_fiori",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "path" : "./xs-security.json",
+      "service-name" : "fiori-xsuaa-service",
+      "service-plan" : "application",
+      "type" : "managed-service",
+      "service" : "xsuaa"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_html_repo_host",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "service-plan" : "app-host",
+      "type" : "managed-service",
+      "service" : "html5-apps-repo"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori-destination-service",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "service-name" : "fiori-destination-service",
+      "service-plan" : "lite",
+      "type" : "managed-service",
+      "config" : {
+        "HTML5Runtime_enabled" : false,
+        "init_data" : {
+          "instance" : {
+            "destinations" : [ {
+              "Authentication" : "********",
+              "Name" : "ui5",
+              "ProxyType" : "Internet",
+              "Type" : "HTTP",
+              "URL" : "https://ui5.sap.com"
+            } ],
+            "existing_destinations_policy" : "update"
+          }
+        },
+        "version" : "1.0.0"
+      },
+      "service" : "destination"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "enable-parallel-deployments" : true,
+    "deploy_mode" : "html5-repo"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2025 07 18 12:10:52.192#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2450#
+[MergeDescriptorsStep] Descriptors validated and merged#
+#2025 07 18 12:10:52.192#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2450#
+Step "Merge Descriptors" finished#
+#2025 07 18 12:10:52.248#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Executing task "detectDeployedMtaTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:52.249#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Detecting deployed MTA...#
+#2025 07 18 12:10:52.312#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Detecting MTA by id fiori and namespace null#
+#2025 07 18 12:10:52.313#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=7f58b63e31c1985b576e93e266cfd4e2,!mta_namespace"...#
+#2025 07 18 12:10:52.364#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=7f58b63e31c1985b576e93e266cfd4e2,!mta_namespace"...#
+#2025 07 18 12:10:52.520#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Deployed MTA: {
+  "metadata" : {
+    "id" : "fiori",
+    "version" : "0.0.1"
+  },
+  "applications" : [ ],
+  "services" : [ {
+    "name" : "fiori_html_repo_host",
+    "metadata" : {
+      "guid" : "7a357dea-1b35-4be8-b3b5-7cb83451c63b",
+      "createdAt" : [ 2025, 7, 17, 19, 46, 45 ],
+      "updatedAt" : [ 2025, 7, 17, 19, 46, 46 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "fiori",
+        "mta_version" : "0.0.1",
+        "mta_resource" : "{\"name\":\"fiori_html_repo_host\"}"
+      },
+      "labels" : {
+        "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+      }
+    },
+    "label" : "html5-apps-repo",
+    "plan" : "app-host",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "CREATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "fiori_html_repo_host"
+  }, {
+    "name" : "fiori_html_repo_runtime",
+    "metadata" : {
+      "guid" : "d449a396-0a26-4120-adcd-25cb87ca1675",
+      "createdAt" : [ 2025, 7, 17, 19, 46, 45 ],
+      "updatedAt" : [ 2025, 7, 17, 19, 46, 46 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "fiori",
+        "mta_version" : "0.0.1",
+        "mta_resource" : "{\"name\":\"fiori_html_repo_runtime\"}"
+      },
+      "labels" : {
+        "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+      }
+    },
+    "label" : "html5-apps-repo",
+    "plan" : "app-runtime",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "CREATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "fiori_html_repo_runtime"
+  }, {
+    "name" : "fiori-destination-service",
+    "metadata" : {
+      "guid" : "81506c8c-f3dc-4ccd-8d20-b7e9e5ba51fa",
+      "createdAt" : [ 2025, 7, 17, 19, 46, 48 ],
+      "updatedAt" : [ 2025, 7, 17, 19, 46, 50 ]
+    },
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "fiori",
+        "mta_version" : "0.0.1",
+        "mta_resource" : "{\"name\":\"fiori-destination-service\"}"
+      },
+      "labels" : {
+        "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+      }
+    },
+    "label" : "destination",
+    "plan" : "lite",
+    "credentials" : "********",
+    "tags" : [ ],
+    "type" : "managed",
+    "lastOperation" : {
+      "type" : "UPDATE",
+      "description" : "",
+      "state" : "SUCCEEDED"
+    },
+    "resourceName" : "fiori-destination-service"
+  } ]
+}#
+#2025 07 18 12:10:52.520#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Detected deployed MTA with ID "fiori" and version "0.0.1"#
+#2025 07 18 12:10:52.528#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Detecting backup mta by id "fiori" and namespace "null"#
+#2025 07 18 12:10:52.528#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Getting applications by metadata label selector "mta_id=7f58b63e31c1985b576e93e266cfd4e2,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2025 07 18 12:10:52.569#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Getting service instances by metadata label selector "mta_id=7f58b63e31c1985b576e93e266cfd4e2,mta_namespace=b698114a0995e936895b9598a6c19a2c"...#
+#2025 07 18 12:10:52.629#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+[DetectDeployedMtaStep] Deployed MTA service keys: [ ]#
+#2025 07 18 12:10:52.629#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2451#
+Step "Detect Deployed MTA" finished#
+#2025 07 18 12:10:52.688#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] Executing task "collectSystemParametersTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:52.690#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] Collecting system parameters...#
+#2025 07 18 12:10:52.690#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] Getting default domain...#
+#2025 07 18 12:10:52.717#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] Default domain: cfapps.us10-001.hana.ondemand.com#
+#2025 07 18 12:10:52.717#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] Checking for overwriting read-only parameters for mta with id: "fiori"#
+#2025 07 18 12:10:52.717#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] No read-only parameters are overwritten#
+#2025 07 18 12:10:52.731#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] Descriptor with system parameters: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.2.0",
+  "id" : "fiori",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori-approuter",
+    "type" : "javascript.nodejs",
+    "path" : "fiori-approuter",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "fiori-approuter",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "default-live-host" : "org-devna-5lq5-dev-fiori-approuter",
+      "instances" : "${default-instances}",
+      "default-host" : "org-devna-5lq5-dev-fiori-approuter",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "org-devna-5lq5-dev-fiori-approuter.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "fiori-approuter",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "disk-quota" : "256M",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori_html_repo_runtime",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "uaa_fiori",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori-destination-service",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "ui5",
+        "forwardAuthToken" : "********",
+        "url" : "https://ui5.sap.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori-approuter",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_ui_deployer",
+    "type" : "com.sap.application.content",
+    "path" : "fiori_ui_deployer",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "${protocol}://${default-uri}",
+      "default-app-name" : "fiori_ui_deployer",
+      "generated-password" : "********",
+      "default-live-url" : "${protocol}://${default-live-uri}",
+      "default-uri" : "${host}.${domain}",
+      "default-instances" : 1,
+      "default-live-host" : "org-devna-5lq5-dev-fiori-ui-deployer",
+      "instances" : "${default-instances}",
+      "default-host" : "org-devna-5lq5-dev-fiori-ui-deployer",
+      "app-name" : "${default-app-name}",
+      "default-live-uri" : "org-devna-5lq5-dev-fiori-ui-deployer.${domain}",
+      "protocol" : "https",
+      "default-live-app-name" : "fiori_ui_deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "${default-domain}",
+      "host" : "${default-host}",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori_html_repo_host",
+      "properties" : { },
+      "parameters" : {
+        "content-target" : true
+      },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori_ui_deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_html_repo_runtime",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "app-runtime",
+      "service" : "html5-apps-repo",
+      "generated-user" : "********",
+      "default-xsappname" : "fiori_html_repo_runtime",
+      "type" : "managed-service",
+      "default-service-name" : "fiori_html_repo_runtime",
+      "default-container-name" : "ORG_DEVNA_5LQ5_DEV_FIORI_HTML_REPO_RUNTIME"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "uaa_fiori",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "fiori-xsuaa-service",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "uaa_fiori",
+      "type" : "managed-service",
+      "default-service-name" : "uaa_fiori",
+      "default-container-name" : "ORG_DEVNA_5LQ5_DEV_UAA_FIORI"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_html_repo_host",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "${default-service-name}",
+      "service-plan" : "app-host",
+      "service" : "html5-apps-repo",
+      "generated-user" : "********",
+      "default-xsappname" : "fiori_html_repo_host",
+      "type" : "managed-service",
+      "default-service-name" : "fiori_html_repo_host",
+      "default-container-name" : "ORG_DEVNA_5LQ5_DEV_FIORI_HTML_REPO_HOST"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori-destination-service",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "fiori-destination-service",
+      "service-plan" : "lite",
+      "service" : "destination",
+      "generated-user" : "********",
+      "default-xsappname" : "fiori-destination-service",
+      "type" : "managed-service",
+      "config" : {
+        "HTML5Runtime_enabled" : false,
+        "init_data" : {
+          "instance" : {
+            "destinations" : [ {
+              "Authentication" : "********",
+              "Name" : "ui5",
+              "ProxyType" : "Internet",
+              "Type" : "HTTP",
+              "URL" : "https://ui5.sap.com"
+            } ],
+            "existing_destinations_policy" : "update"
+          }
+        },
+        "version" : "1.0.0"
+      },
+      "default-service-name" : "fiori-destination-service",
+      "default-container-name" : "ORG_DEVNA_5LQ5_DEV_FIORI_DESTINATION_SERVICE"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "deploy_mode" : "html5-repo",
+    "mta-id" : "fiori",
+    "authorization-url" : "********",
+    "org-guid" : "b82d636a-5be8-482b-878e-41149c1e0cf7",
+    "org" : "org-devna-5lq5",
+    "deploy-target" : "org-devna-5lq5 dev",
+    "enable-parallel-deployments" : true,
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "0.0.1",
+    "xs-auth-url" : "********",
+    "space-guid" : "f05ee068-8026-49ca-9358-7fa70df63430",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20250718121051"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2025 07 18 12:10:52.733#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] Version rule: SAME_HIGHER#
+#2025 07 18 12:10:52.733#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] Detected new MTA version: "0.0.1"#
+#2025 07 18 12:10:52.741#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] Deployed MTA version: "0.0.1"#
+#2025 07 18 12:10:52.748#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] MTA accepted for deployment#
+#2025 07 18 12:10:52.749#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[XS2CollectSystemParametersStep] System parameters collected#
+#2025 07 18 12:10:52.749#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+Step "Collect System Parameters" finished#
+#2025 07 18 12:10:52.804#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[ProcessDescriptorStep] Executing task "processDescriptorTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:52.806#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[ProcessDescriptorStep] Resolving properties and parameters in merged descriptor...#
+#2025 07 18 12:10:52.809#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[ProcessDescriptorStep] Subscriptions: [ ]#
+#2025 07 18 12:10:52.809#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[ProcessDescriptorStep] MTA modules: [fiori-approuter, fiori_ui_deployer]#
+#2025 07 18 12:10:52.809#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[ProcessDescriptorStep] Resolved deployment descriptor: {
+  "majorSchemaVersion" : 3,
+  "schemaVersion" : "3.2.0",
+  "id" : "fiori",
+  "version" : "0.0.1",
+  "modules" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori-approuter",
+    "type" : "javascript.nodejs",
+    "path" : "fiori-approuter",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://org-devna-5lq5-dev-fiori-approuter.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "fiori-approuter",
+      "generated-password" : "********",
+      "default-live-url" : "https://org-devna-5lq5-dev-fiori-approuter.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "org-devna-5lq5-dev-fiori-approuter.cfapps.us10-001.hana.ondemand.com",
+      "memory" : "256M",
+      "default-instances" : 1,
+      "default-live-host" : "org-devna-5lq5-dev-fiori-approuter",
+      "instances" : 1,
+      "default-host" : "org-devna-5lq5-dev-fiori-approuter",
+      "app-name" : "fiori-approuter",
+      "default-live-uri" : "org-devna-5lq5-dev-fiori-approuter.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "fiori-approuter",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "disk-quota" : "256M",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "org-devna-5lq5-dev-fiori-approuter",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori_html_repo_runtime",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "uaa_fiori",
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    }, {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori-destination-service",
+      "group" : "destinations",
+      "properties" : {
+        "name" : "ui5",
+        "forwardAuthToken" : "********",
+        "url" : "https://ui5.sap.com"
+      },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori-approuter",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_ui_deployer",
+    "type" : "com.sap.application.content",
+    "path" : "fiori_ui_deployer",
+    "properties" : { },
+    "parameters" : {
+      "default-url" : "https://org-devna-5lq5-dev-fiori-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-app-name" : "fiori_ui_deployer",
+      "generated-password" : "********",
+      "default-live-url" : "https://org-devna-5lq5-dev-fiori-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-uri" : "org-devna-5lq5-dev-fiori-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+      "default-instances" : 1,
+      "default-live-host" : "org-devna-5lq5-dev-fiori-ui-deployer",
+      "instances" : 1,
+      "default-host" : "org-devna-5lq5-dev-fiori-ui-deployer",
+      "app-name" : "fiori_ui_deployer",
+      "default-live-uri" : "org-devna-5lq5-dev-fiori-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+      "protocol" : "https",
+      "default-live-app-name" : "fiori_ui_deployer",
+      "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+      "domain" : "cfapps.us10-001.hana.ondemand.com",
+      "host" : "org-devna-5lq5-dev-fiori-ui-deployer",
+      "generated-user" : "********"
+    },
+    "requiredDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori_html_repo_host",
+      "properties" : { },
+      "parameters" : {
+        "content-target" : true
+      },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "providedDependencies" : [ {
+      "majorSchemaVersion" : 3,
+      "name" : "fiori_ui_deployer",
+      "isPublic" : false,
+      "properties" : { },
+      "parameters" : { },
+      "propertiesMetadata" : {
+        "metadata" : { }
+      },
+      "parametersMetadata" : {
+        "metadata" : { }
+      }
+    } ],
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "hooks" : [ ]
+  } ],
+  "resources" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_html_repo_runtime",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "fiori_html_repo_runtime",
+      "service-plan" : "app-runtime",
+      "service" : "html5-apps-repo",
+      "generated-user" : "********",
+      "default-xsappname" : "fiori_html_repo_runtime",
+      "type" : "managed-service",
+      "default-service-name" : "fiori_html_repo_runtime",
+      "default-container-name" : "ORG_DEVNA_5LQ5_DEV_FIORI_HTML_REPO_RUNTIME"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "uaa_fiori",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "path" : "./xs-security.json",
+      "service-name" : "fiori-xsuaa-service",
+      "service-plan" : "application",
+      "service" : "xsuaa",
+      "generated-user" : "********",
+      "default-xsappname" : "uaa_fiori",
+      "type" : "managed-service",
+      "default-service-name" : "uaa_fiori",
+      "default-container-name" : "ORG_DEVNA_5LQ5_DEV_UAA_FIORI"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_html_repo_host",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "fiori_html_repo_host",
+      "service-plan" : "app-host",
+      "service" : "html5-apps-repo",
+      "generated-user" : "********",
+      "default-xsappname" : "fiori_html_repo_host",
+      "type" : "managed-service",
+      "default-service-name" : "fiori_html_repo_host",
+      "default-container-name" : "ORG_DEVNA_5LQ5_DEV_FIORI_HTML_REPO_HOST"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori-destination-service",
+    "type" : "org.cloudfoundry.managed-service",
+    "properties" : { },
+    "parameters" : {
+      "generated-password" : "********",
+      "service-name" : "fiori-destination-service",
+      "service-plan" : "lite",
+      "service" : "destination",
+      "generated-user" : "********",
+      "default-xsappname" : "fiori-destination-service",
+      "type" : "managed-service",
+      "config" : {
+        "HTML5Runtime_enabled" : false,
+        "init_data" : {
+          "instance" : {
+            "destinations" : [ {
+              "Authentication" : "********",
+              "Name" : "ui5",
+              "ProxyType" : "Internet",
+              "Type" : "HTTP",
+              "URL" : "https://ui5.sap.com"
+            } ],
+            "existing_destinations_policy" : "update"
+          }
+        },
+        "version" : "1.0.0"
+      },
+      "default-service-name" : "fiori-destination-service",
+      "default-container-name" : "ORG_DEVNA_5LQ5_DEV_FIORI_DESTINATION_SERVICE"
+    },
+    "isActive" : true,
+    "isOptional" : false,
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    },
+    "requiredDependencies" : [ ],
+    "processedAfter" : [ ]
+  } ],
+  "parameters" : {
+    "deploy_mode" : "html5-repo",
+    "mta-id" : "fiori",
+    "authorization-url" : "********",
+    "org-guid" : "b82d636a-5be8-482b-878e-41149c1e0cf7",
+    "org" : "org-devna-5lq5",
+    "deploy-target" : "org-devna-5lq5 dev",
+    "enable-parallel-deployments" : true,
+    "region-primary-domain" : "us10.hana.ondemand.com",
+    "space" : "dev",
+    "xs-api-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "deploy-url" : "deploy-service.cfapps.us10-001.hana.ondemand.com",
+    "xs-type" : "CF",
+    "default-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "mta-version" : "0.0.1",
+    "xs-auth-url" : "********",
+    "space-guid" : "f05ee068-8026-49ca-9358-7fa70df63430",
+    "user" : "********",
+    "controller-url" : "https://api.cf.us10-001.hana.ondemand.com",
+    "timestamp" : "20250718121051"
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  }
+}#
+#2025 07 18 12:10:52.809#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[ProcessDescriptorStep] Merged descriptor properties and parameters resolved#
+#2025 07 18 12:10:52.810#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+Step "Process Descriptor Step" finished#
+#2025 07 18 12:10:52.863#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] Executing task "buildDeployModelTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:52.867#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] Service keys defined for content deployment grouped by service name: {
+  "fiori_html_repo_host" : [ {
+    "name" : "********",
+    "v3Metadata" : {
+      "annotations" : {
+        "mta_id" : "fiori",
+        "mta_version" : "0.0.1"
+      },
+      "labels" : {
+        "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2",
+        "space_guid" : "f05ee068-8026-49ca-9358-7fa70df63430"
+      }
+    },
+    "credentials" : "********",
+    "moduleName" : "fiori_ui_deployer",
+    "resourceName" : "fiori_html_repo_host",
+    "serviceInstance" : {
+      "isOptional" : false,
+      "isManaged" : false,
+      "name" : "fiori_html_repo_host",
+      "credentials" : "********",
+      "tags" : [ ],
+      "shouldSkipParametersUpdate" : false,
+      "shouldSkipPlanUpdate" : false,
+      "shouldSkipTagsUpdate" : false,
+      "shouldSkipSyslogUrlUpdate" : false
+    },
+    "shouldDeleteServiceKeyAfterDeploy" : "********",
+    "resourceType" : "org.cloudfoundry.managed-service"
+  } ]
+}#
+#2025 07 18 12:10:52.867#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] Building cloud deployment model...#
+#2025 07 18 12:10:52.871#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] MTA archive modules: [fiori-approuter, fiori_ui_deployer]#
+#2025 07 18 12:10:52.871#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] Deployed modules: []#
+#2025 07 18 12:10:52.872#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] MTA modules: [fiori-approuter, fiori_ui_deployer]#
+#2025 07 18 12:10:52.872#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] Service keys to create: {
+  "fiori_html_repo_runtime" : [ ],
+  "fiori_html_repo_host" : [ ],
+  "fiori-destination-service" : [ ],
+  "uaa_fiori" : [ ]
+}#
+#2025 07 18 12:10:52.873#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] Modules to deploy: [{
+  "majorSchemaVersion" : 3,
+  "name" : "fiori-approuter",
+  "type" : "javascript.nodejs",
+  "path" : "fiori-approuter",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://org-devna-5lq5-dev-fiori-approuter.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "fiori-approuter",
+    "generated-password" : "********",
+    "default-live-url" : "https://org-devna-5lq5-dev-fiori-approuter.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "org-devna-5lq5-dev-fiori-approuter.cfapps.us10-001.hana.ondemand.com",
+    "memory" : "256M",
+    "default-instances" : 1,
+    "default-live-host" : "org-devna-5lq5-dev-fiori-approuter",
+    "instances" : 1,
+    "default-host" : "org-devna-5lq5-dev-fiori-approuter",
+    "app-name" : "fiori-approuter",
+    "default-live-uri" : "org-devna-5lq5-dev-fiori-approuter.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "fiori-approuter",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "disk-quota" : "256M",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "org-devna-5lq5-dev-fiori-approuter",
+    "generated-user" : "********"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_html_repo_runtime",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "uaa_fiori",
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  }, {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori-destination-service",
+    "group" : "destinations",
+    "properties" : {
+      "name" : "ui5",
+      "forwardAuthToken" : "********",
+      "url" : "https://ui5.sap.com"
+    },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori-approuter",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}, {
+  "majorSchemaVersion" : 3,
+  "name" : "fiori_ui_deployer",
+  "type" : "com.sap.application.content",
+  "path" : "fiori_ui_deployer",
+  "properties" : { },
+  "parameters" : {
+    "default-url" : "https://org-devna-5lq5-dev-fiori-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-app-name" : "fiori_ui_deployer",
+    "generated-password" : "********",
+    "default-live-url" : "https://org-devna-5lq5-dev-fiori-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-uri" : "org-devna-5lq5-dev-fiori-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+    "default-instances" : 1,
+    "default-live-host" : "org-devna-5lq5-dev-fiori-ui-deployer",
+    "instances" : 1,
+    "default-host" : "org-devna-5lq5-dev-fiori-ui-deployer",
+    "app-name" : "fiori_ui_deployer",
+    "default-live-uri" : "org-devna-5lq5-dev-fiori-ui-deployer.cfapps.us10-001.hana.ondemand.com",
+    "protocol" : "https",
+    "default-live-app-name" : "fiori_ui_deployer",
+    "default-live-domain" : "cfapps.us10-001.hana.ondemand.com",
+    "dependency-type" : "soft",
+    "domain" : "cfapps.us10-001.hana.ondemand.com",
+    "host" : "org-devna-5lq5-dev-fiori-ui-deployer",
+    "generated-user" : "********"
+  },
+  "requiredDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_html_repo_host",
+    "properties" : { },
+    "parameters" : {
+      "content-target" : true
+    },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "providedDependencies" : [ {
+    "majorSchemaVersion" : 3,
+    "name" : "fiori_ui_deployer",
+    "isPublic" : false,
+    "properties" : { },
+    "parameters" : { },
+    "propertiesMetadata" : {
+      "metadata" : { }
+    },
+    "parametersMetadata" : {
+      "metadata" : { }
+    }
+  } ],
+  "propertiesMetadata" : {
+    "metadata" : { }
+  },
+  "parametersMetadata" : {
+    "metadata" : { }
+  },
+  "deployedAfter" : [ ],
+  "hooks" : [ ]
+}]#
+#2025 07 18 12:10:52.873#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] Custom domains: []#
+#2025 07 18 12:10:52.874#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] Calculating resource batches...#
+#2025 07 18 12:10:52.874#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] Calculating resource batches completed.#
+#2025 07 18 12:10:52.874#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+[XS2BuildCloudDeployModelStep] Cloud deployment model built#
+#2025 07 18 12:10:52.874#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2446#
+Step "Build Deploy Model" finished#
+#2025 07 18 12:10:52.939#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] Executing task "buildUndeployModelTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:52.940#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] Building cloud undeployment model...#
+#2025 07 18 12:10:52.951#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] MTA modules: [fiori-approuter, fiori_ui_deployer]#
+#2025 07 18 12:10:52.951#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] Modules to undeploy: [ ]#
+#2025 07 18 12:10:52.951#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] Modules that won't be changed: [ ]#
+#2025 07 18 12:10:52.953#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] Subscriptions to delete: [ ]#
+#2025 07 18 12:10:52.955#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] Cloud services to delete: []#
+#2025 07 18 12:10:52.955#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] Detecting service keys to delete.#
+#2025 07 18 12:10:52.956#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] No deployed service keys detected!#
+#2025 07 18 12:10:52.957#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] Detected service keys to delete "[]"#
+#2025 07 18 12:10:52.957#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] Cloud applications to undeploy: [ ]#
+#2025 07 18 12:10:52.961#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[BuildCloudUndeployModelStep] Cloud undeployment model built#
+#2025 07 18 12:10:52.961#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+Step "Build Undeploy Model" finished#
+#2025 07 18 12:10:53.023#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[AddDomainsStep] Executing task "addDomainsTask" of process "3f552f9a-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:53.026#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[AddDomainsStep] Custom domains: []#
+#2025 07 18 12:10:53.026#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+Step "Add Domains" finished#
+#2025 07 18 12:10:53.216#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2450#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Executing task "prepareModulesDeploymentTask" of process "4047f40b-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:53.218#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2450#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Extracting services and resolving dynamic parameters from batch#
+#2025 07 18 12:10:53.219#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2450#
+[ExtractBatchedServicesWithResolvedDynamicParametersStep] Services to create: [ {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "fiori_html_repo_runtime",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"fiori_html_repo_runtime\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "html5-apps-repo",
+  "plan" : "app-runtime",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "fiori_html_repo_runtime",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "fiori-xsuaa-service",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"uaa_fiori\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "uaa_fiori",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "fiori_html_repo_host",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"fiori_html_repo_host\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "html5-apps-repo",
+  "plan" : "app-host",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "fiori_html_repo_host",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}, {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "fiori-destination-service",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"fiori-destination-service\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "destination",
+  "plan" : "lite",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "fiori-destination-service",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+} ]#
+#2025 07 18 12:10:53.220#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2450#
+Step "Extract Services with Resolved Dynamic parameters from batch" finished#
+#2025 07 18 12:10:53.370#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "40636b90-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:53.370#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+[CheckServiceOperationStateStep] Getting service instance "fiori_html_repo_runtime"...#
+#2025 07 18 12:10:53.518#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2447#
+Step "Check for service operations in Progress" finished#
+#2025 07 18 12:10:53.566#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "40636b90-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:53.568#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "fiori_html_repo_runtime"...#
+#2025 07 18 12:10:53.575#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "fiori_html_repo_runtime"...#
+#2025 07 18 12:10:53.717#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "fiori_html_repo_runtime",
+  "metadata" : {
+    "guid" : "d449a396-0a26-4120-adcd-25cb87ca1675",
+    "createdAt" : [ 2025, 7, 17, 19, 46, 45 ],
+    "updatedAt" : [ 2025, 7, 17, 19, 46, 46 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"fiori_html_repo_runtime\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "html5-apps-repo",
+  "plan" : "app-runtime",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "CREATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+#2025 07 18 12:10:53.717#Z#WARN#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters for service "fiori_html_repo_runtime" will not be updated, as the parameters are not defined or empty.#
+#2025 07 18 12:10:53.717#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2448#
+Step "Determine update actions" finished#
+#2025 07 18 12:10:53.800#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2449#
+[CheckForServiceBindingOrKeyOperationStep] Executing task "CheckForServiceBindingOrKeyCreation" of process "40636b90-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:53.803#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2449#
+Step "Check for service binding or key creation" finished#
+#2025 07 18 12:10:56.166#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "420eaae4-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:56.167#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[CheckServiceOperationStateStep] Getting service instance "fiori-xsuaa-service"...#
+#2025 07 18 12:10:56.198#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+Step "Check for service operations in Progress" finished#
+#2025 07 18 12:10:56.036#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "41f9e976-63d0-11f0-9813-eeee0a8887e8"...#
+#2025 07 18 12:10:56.095#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[CheckServiceOperationStateStep] Getting service instance "fiori-destination-service"...#
+#2025 07 18 12:10:56.233#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+Step "Check for service operations in Progress" finished#
+#2025 07 18 12:10:56.247#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "420eaae4-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:56.249#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "fiori-xsuaa-service"...#
+#2025 07 18 12:10:56.257#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "fiori-xsuaa-service"...#
+#2025 07 18 12:10:56.289#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[DetermineServiceCreateUpdateServiceActionsStep] Setting service "fiori-xsuaa-service" parameters from "xs-security.json"#
+#2025 07 18 12:10:56.326#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[DetermineServiceCreateUpdateServiceActionsStep] Service should be created#
+#2025 07 18 12:10:56.331#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+Step "Determine update actions" finished#
+#2025 07 18 12:10:56.274#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "41f9e976-63d0-11f0-9813-eeee0a8887e8"...#
+#2025 07 18 12:10:56.276#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "fiori-destination-service"...#
+#2025 07 18 12:10:56.282#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "fiori-destination-service"...#
+#2025 07 18 12:10:56.400#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "fiori-destination-service",
+  "metadata" : {
+    "guid" : "81506c8c-f3dc-4ccd-8d20-b7e9e5ba51fa",
+    "createdAt" : [ 2025, 7, 17, 19, 46, 48 ],
+    "updatedAt" : [ 2025, 7, 17, 19, 46, 50 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"fiori-destination-service\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "destination",
+  "plan" : "lite",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "UPDATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+#2025 07 18 12:10:56.400#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters will be updated#
+#2025 07 18 12:10:56.400#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[DetermineServiceCreateUpdateServiceActionsStep] New parameters: {
+  "HTML5Runtime_enabled" : false,
+  "init_data" : {
+    "instance" : {
+      "destinations" : [ {
+        "Authentication" : "********",
+        "Name" : "ui5",
+        "ProxyType" : "Internet",
+        "Type" : "HTTP",
+        "URL" : "https://ui5.sap.com"
+      } ],
+      "existing_destinations_policy" : "update"
+    }
+  },
+  "version" : "1.0.0"
+}#
+#2025 07 18 12:10:56.400#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+Step "Determine update actions" finished#
+#2025 07 18 12:10:56.467#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[CheckForServiceBindingOrKeyOperationStep] Executing task "CheckForServiceBindingOrKeyCreation" of process "41f9e976-63d0-11f0-9813-eeee0a8887e8"...#
+#2025 07 18 12:10:56.470#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+Step "Check for service binding or key creation" finished#
+#2025 07 18 12:10:56.527#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "41f9e976-63d0-11f0-9813-eeee0a8887e8"...#
+#2025 07 18 12:10:56.530#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[UpdateServiceParametersStep] Updating service "fiori-destination-service"...#
+#2025 07 18 12:10:56.536#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[UpdateServiceParametersStep] Updating service parameters for service "fiori-destination-service"...#
+#2025 07 18 12:10:56.635#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[UpdateServiceParametersStep] Service "fiori-destination-service" updated#
+#2025 07 18 12:10:56.635#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+[UpdateServiceParametersStep] Triggered service operations: {
+  "fiori-destination-service" : "UPDATE"
+}#
+#2025 07 18 12:10:56.636#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3357#
+Step "Update parameters" finished#
+#2025 07 18 12:10:56.416#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "420eaae4-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:10:56.420#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[CreateServiceStep] Creating service "fiori-xsuaa-service" from MTA resource "uaa_fiori"...#
+#2025 07 18 12:10:56.429#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "fiori-xsuaa-service",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"uaa_fiori\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "uaa_fiori",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2025 07 18 12:10:56.660#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[CreateServiceStep] Service "fiori-xsuaa-service" created#
+#2025 07 18 12:10:56.660#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+[CreateServiceStep] Triggered service operations: {
+  "fiori-xsuaa-service" : "CREATE"
+}#
+#2025 07 18 12:10:56.662#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2452#
+Step "Create" finished#
+#2025 07 18 12:10:59.038#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3383#
+[CheckServiceOperationStateStep] Executing task "CheckServiceOperationStateTask" of process "43c55ab3-63d0-11f0-a8a0-eeee0a8f3102"...#
+#2025 07 18 12:10:59.111#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3383#
+[CheckServiceOperationStateStep] Getting service instance "fiori_html_repo_host"...#
+#2025 07 18 12:10:59.257#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3383#
+Step "Check for service operations in Progress" finished#
+#2025 07 18 12:10:59.303#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3384#
+[DetermineServiceCreateUpdateServiceActionsStep] Executing task "DetermineServiceCreateUpdateActionsTask" of process "43c55ab3-63d0-11f0-a8a0-eeee0a8f3102"...#
+#2025 07 18 12:10:59.305#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3384#
+[DetermineServiceCreateUpdateServiceActionsStep] Processing service "fiori_html_repo_host"...#
+#2025 07 18 12:10:59.312#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3384#
+[DetermineServiceCreateUpdateServiceActionsStep] Getting service instance "fiori_html_repo_host"...#
+#2025 07 18 12:10:59.480#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3384#
+[DetermineServiceCreateUpdateServiceActionsStep] Existing service: {
+  "name" : "fiori_html_repo_host",
+  "metadata" : {
+    "guid" : "7a357dea-1b35-4be8-b3b5-7cb83451c63b",
+    "createdAt" : [ 2025, 7, 17, 19, 46, 45 ],
+    "updatedAt" : [ 2025, 7, 17, 19, 46, 46 ]
+  },
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"fiori_html_repo_host\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "html5-apps-repo",
+  "plan" : "app-host",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "lastOperation" : {
+    "type" : "CREATE",
+    "description" : "",
+    "state" : "SUCCEEDED"
+  }
+}#
+#2025 07 18 12:10:59.481#Z#WARN#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3384#
+[DetermineServiceCreateUpdateServiceActionsStep] Service parameters for service "fiori_html_repo_host" will not be updated, as the parameters are not defined or empty.#
+#2025 07 18 12:10:59.481#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3384#
+Step "Determine update actions" finished#
+#2025 07 18 12:10:59.559#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3385#
+[CheckForServiceBindingOrKeyOperationStep] Executing task "CheckForServiceBindingOrKeyCreation" of process "43c55ab3-63d0-11f0-a8a0-eeee0a8f3102"...#
+#2025 07 18 12:10:59.562#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3385#
+Step "Check for service binding or key creation" finished#
+#2025 07 18 12:11:02.408#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3361#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "420eaae4-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:11:02.410#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3361#
+[CreateServiceStep] Polling service operations...#
+#2025 07 18 12:11:02.412#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3361#
+[CreateServiceStep] Getting service instance "fiori-xsuaa-service"...#
+#2025 07 18 12:11:02.539#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3361#
+[CreateServiceStep] Last operation for service "fiori-xsuaa-service": {
+  "type" : "CREATE",
+  "description" : "Error creating application null (Error parsing xs-security.json data: Unrecognized field \"oauth2-configuration\" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: \"scope-references\", \"attributeReferences\", \"default-role-name\", \"attribute-references\", \"attributeReferencesFromNames\", \"name\", \"appId\", \"description\", \"scopeReferences\"])\n at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp[\"role-templates\"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate[\"oauth2-configuration\"]))",
+  "state" : "FAILED"
+}#
+#2025 07 18 12:11:02.539#Z#ERROR#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3361#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: Error monitoring creation or update of services: Error creating service "fiori-xsuaa-service" from offering "xsuaa" and plan "application": Error creating application null (Error parsing xs-security.json data: Unrecognized field "oauth2-configuration" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: "scope-references", "attributeReferences", "default-role-name", "attribute-references", "attributeReferencesFromNames", "name", "appId", "description", "scopeReferences"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp["role-templates"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate["oauth2-configuration"])) 
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.processException(SyncFlowableStep.java:132) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:28) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStep(AsyncFlowableStep.java:15) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:76) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:66) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:66) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:161) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:195) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:130) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:114) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:72) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.8.0.jar:6.8.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-6.2.8.jar:6.2.8]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.8.0.jar:6.8.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.8.0.jar:6.8.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: org.cloudfoundry.multiapps.common.SLException: Error creating service "fiori-xsuaa-service" from offering "xsuaa" and plan "application": Error creating application null (Error parsing xs-security.json data: Unrecognized field "oauth2-configuration" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: "scope-references", "attributeReferences", "default-role-name", "attribute-references", "attributeReferencesFromNames", "name", "appId", "description", "scopeReferences"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp["role-templates"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate["oauth2-configuration"]))
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.handleFailedState(PollServiceCreateOrUpdateOperationsExecution.java:98) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.reportServiceState(PollServiceCreateOrUpdateOperationsExecution.java:79) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.reportDetailedServicesStates(PollServiceOperationsExecution.java:124) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.execute(PollServiceOperationsExecution.java:57) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:25) ~[multiapps-controller-process-1.193.1.jar:?]
+	... 31 more
+#2025 07 18 12:11:02.549#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3361#
+Step "Create" finished#
+#2025 07 18 12:11:02.404#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3360#
+[UpdateServiceParametersStep] Executing task "UpdateServiceParametersTask" of process "41f9e976-63d0-11f0-9813-eeee0a8887e8"...#
+#2025 07 18 12:11:02.406#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3360#
+[UpdateServiceParametersStep] Polling service operations...#
+#2025 07 18 12:11:02.409#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3360#
+[UpdateServiceParametersStep] Getting service instance "fiori-destination-service"...#
+#2025 07 18 12:11:02.557#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3360#
+[UpdateServiceParametersStep] Last operation for service "fiori-destination-service": {
+  "type" : "UPDATE",
+  "description" : "",
+  "state" : "SUCCEEDED"
+}#
+#2025 07 18 12:11:02.557#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3360#
+[UpdateServiceParametersStep] Service "fiori-destination-service" updated#
+#2025 07 18 12:11:02.557#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3360#
+[UpdateServiceParametersStep] 1 of 1 done#
+#2025 07 18 12:11:02.564#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3360#
+[UpdateServiceParametersStep] Remaining services to poll: [ ]#
+#2025 07 18 12:11:02.566#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3360#
+Step "Update parameters" finished#
+#2025 07 18 12:11:03.985#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2453#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "420eaae4-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:11:03.988#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2453#
+[CreateServiceStep] Creating service "fiori-xsuaa-service" from MTA resource "uaa_fiori"...#
+#2025 07 18 12:11:03.995#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2453#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "fiori-xsuaa-service",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"uaa_fiori\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "uaa_fiori",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2025 07 18 12:11:04.245#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2453#
+[CreateServiceStep] Service "fiori-xsuaa-service" created#
+#2025 07 18 12:11:04.245#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2453#
+[CreateServiceStep] Triggered service operations: {
+  "fiori-xsuaa-service" : "CREATE"
+}#
+#2025 07 18 12:11:04.252#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2453#
+Step "Create" finished#
+#2025 07 18 12:11:12.500#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3363#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "420eaae4-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:11:12.501#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3363#
+[CreateServiceStep] Polling service operations...#
+#2025 07 18 12:11:12.567#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3363#
+[CreateServiceStep] Getting service instance "fiori-xsuaa-service"...#
+#2025 07 18 12:11:12.733#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3363#
+[CreateServiceStep] Last operation for service "fiori-xsuaa-service": {
+  "type" : "CREATE",
+  "description" : "Error creating application null (Error parsing xs-security.json data: Unrecognized field \"oauth2-configuration\" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: \"scope-references\", \"attributeReferences\", \"default-role-name\", \"attribute-references\", \"attributeReferencesFromNames\", \"name\", \"appId\", \"description\", \"scopeReferences\"])\n at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp[\"role-templates\"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate[\"oauth2-configuration\"]))",
+  "state" : "FAILED"
+}#
+#2025 07 18 12:11:12.734#Z#ERROR#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3363#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: Error monitoring creation or update of services: Error creating service "fiori-xsuaa-service" from offering "xsuaa" and plan "application": Error creating application null (Error parsing xs-security.json data: Unrecognized field "oauth2-configuration" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: "scope-references", "attributeReferences", "default-role-name", "attribute-references", "attributeReferencesFromNames", "name", "appId", "description", "scopeReferences"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp["role-templates"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate["oauth2-configuration"])) 
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.processException(SyncFlowableStep.java:132) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:28) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStep(AsyncFlowableStep.java:15) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:76) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:66) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:66) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:161) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:195) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:130) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:114) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:72) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.8.0.jar:6.8.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-6.2.8.jar:6.2.8]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.8.0.jar:6.8.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.8.0.jar:6.8.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: org.cloudfoundry.multiapps.common.SLException: Error creating service "fiori-xsuaa-service" from offering "xsuaa" and plan "application": Error creating application null (Error parsing xs-security.json data: Unrecognized field "oauth2-configuration" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: "scope-references", "attributeReferences", "default-role-name", "attribute-references", "attributeReferencesFromNames", "name", "appId", "description", "scopeReferences"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp["role-templates"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate["oauth2-configuration"]))
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.handleFailedState(PollServiceCreateOrUpdateOperationsExecution.java:98) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.reportServiceState(PollServiceCreateOrUpdateOperationsExecution.java:79) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.reportDetailedServicesStates(PollServiceOperationsExecution.java:124) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.execute(PollServiceOperationsExecution.java:57) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:25) ~[multiapps-controller-process-1.193.1.jar:?]
+	... 31 more
+#2025 07 18 12:11:12.745#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3363#
+Step "Create" finished#
+#2025 07 18 12:11:13.344#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2454#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "420eaae4-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:11:13.347#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2454#
+[CreateServiceStep] Creating service "fiori-xsuaa-service" from MTA resource "uaa_fiori"...#
+#2025 07 18 12:11:13.354#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2454#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "fiori-xsuaa-service",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"uaa_fiori\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "uaa_fiori",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2025 07 18 12:11:13.636#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2454#
+[CreateServiceStep] Service "fiori-xsuaa-service" created#
+#2025 07 18 12:11:13.636#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2454#
+[CreateServiceStep] Triggered service operations: {
+  "fiori-xsuaa-service" : "CREATE"
+}#
+#2025 07 18 12:11:13.643#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2454#
+Step "Create" finished#
+#2025 07 18 12:11:22.577#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3393#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "420eaae4-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:11:22.579#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3393#
+[CreateServiceStep] Polling service operations...#
+#2025 07 18 12:11:22.582#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3393#
+[CreateServiceStep] Getting service instance "fiori-xsuaa-service"...#
+#2025 07 18 12:11:22.723#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3393#
+[CreateServiceStep] Last operation for service "fiori-xsuaa-service": {
+  "type" : "CREATE",
+  "description" : "Error creating application null (Error parsing xs-security.json data: Unrecognized field \"oauth2-configuration\" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: \"scope-references\", \"attributeReferences\", \"default-role-name\", \"attribute-references\", \"attributeReferencesFromNames\", \"name\", \"appId\", \"description\", \"scopeReferences\"])\n at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp[\"role-templates\"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate[\"oauth2-configuration\"]))",
+  "state" : "FAILED"
+}#
+#2025 07 18 12:11:22.723#Z#ERROR#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3393#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: Error monitoring creation or update of services: Error creating service "fiori-xsuaa-service" from offering "xsuaa" and plan "application": Error creating application null (Error parsing xs-security.json data: Unrecognized field "oauth2-configuration" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: "scope-references", "attributeReferences", "default-role-name", "attribute-references", "attributeReferencesFromNames", "name", "appId", "description", "scopeReferences"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp["role-templates"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate["oauth2-configuration"])) 
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.processException(SyncFlowableStep.java:132) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:28) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStep(AsyncFlowableStep.java:15) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:76) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:66) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:66) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:161) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:195) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:130) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:114) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:72) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.8.0.jar:6.8.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-6.2.8.jar:6.2.8]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.8.0.jar:6.8.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.8.0.jar:6.8.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: org.cloudfoundry.multiapps.common.SLException: Error creating service "fiori-xsuaa-service" from offering "xsuaa" and plan "application": Error creating application null (Error parsing xs-security.json data: Unrecognized field "oauth2-configuration" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: "scope-references", "attributeReferences", "default-role-name", "attribute-references", "attributeReferencesFromNames", "name", "appId", "description", "scopeReferences"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp["role-templates"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate["oauth2-configuration"]))
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.handleFailedState(PollServiceCreateOrUpdateOperationsExecution.java:98) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.reportServiceState(PollServiceCreateOrUpdateOperationsExecution.java:79) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.reportDetailedServicesStates(PollServiceOperationsExecution.java:124) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.execute(PollServiceOperationsExecution.java:57) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:25) ~[multiapps-controller-process-1.193.1.jar:?]
+	... 31 more
+#2025 07 18 12:11:22.735#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3393#
+Step "Create" finished#
+#2025 07 18 12:11:25.696#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2463#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "420eaae4-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:11:25.699#Z#INFO#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2463#
+[CreateServiceStep] Creating service "fiori-xsuaa-service" from MTA resource "uaa_fiori"...#
+#2025 07 18 12:11:25.707#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2463#
+[CreateServiceStep] Creating service instance: {
+  "isOptional" : false,
+  "isManaged" : true,
+  "name" : "fiori-xsuaa-service",
+  "v3Metadata" : {
+    "annotations" : {
+      "mta_id" : "fiori",
+      "mta_version" : "0.0.1",
+      "mta_resource" : "{\"name\":\"uaa_fiori\"}"
+    },
+    "labels" : {
+      "mta_id" : "7f58b63e31c1985b576e93e266cfd4e2"
+    }
+  },
+  "label" : "xsuaa",
+  "plan" : "application",
+  "credentials" : "********",
+  "tags" : [ ],
+  "type" : "managed",
+  "resourceName" : "uaa_fiori",
+  "shouldSkipParametersUpdate" : false,
+  "shouldSkipPlanUpdate" : false,
+  "shouldSkipTagsUpdate" : false,
+  "shouldSkipSyslogUrlUpdate" : false
+}#
+#2025 07 18 12:11:26.001#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2463#
+[CreateServiceStep] Service "fiori-xsuaa-service" created#
+#2025 07 18 12:11:26.001#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2463#
+[CreateServiceStep] Triggered service operations: {
+  "fiori-xsuaa-service" : "CREATE"
+}#
+#2025 07 18 12:11:26.008#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-2463#
+Step "Create" finished#
+#2025 07 18 12:11:32.825#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3401#
+[CreateServiceStep] Executing task "CreateServiceTask" of process "420eaae4-63d0-11f0-86e9-eeee0a8debe6"...#
+#2025 07 18 12:11:32.826#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3401#
+[CreateServiceStep] Polling service operations...#
+#2025 07 18 12:11:32.898#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3401#
+[CreateServiceStep] Getting service instance "fiori-xsuaa-service"...#
+#2025 07 18 12:11:33.055#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3401#
+[CreateServiceStep] Last operation for service "fiori-xsuaa-service": {
+  "type" : "CREATE",
+  "description" : "Error creating application null (Error parsing xs-security.json data: Unrecognized field \"oauth2-configuration\" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: \"scope-references\", \"attributeReferences\", \"default-role-name\", \"attribute-references\", \"attributeReferencesFromNames\", \"name\", \"appId\", \"description\", \"scopeReferences\"])\n at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp[\"role-templates\"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate[\"oauth2-configuration\"]))",
+  "state" : "FAILED"
+}#
+#2025 07 18 12:11:33.056#Z#ERROR#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3401#
+Exception caught#
+org.cloudfoundry.multiapps.common.SLException: Error monitoring creation or update of services: Error creating service "fiori-xsuaa-service" from offering "xsuaa" and plan "application": Error creating application null (Error parsing xs-security.json data: Unrecognized field "oauth2-configuration" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: "scope-references", "attributeReferences", "default-role-name", "attribute-references", "attributeReferencesFromNames", "name", "appId", "description", "scopeReferences"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp["role-templates"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate["oauth2-configuration"])) 
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.processException(SyncFlowableStep.java:132) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:28) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStep(AsyncFlowableStep.java:15) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.executeInternal(SyncFlowableStep.java:76) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.lambda$execute$0(SyncFlowableStep.java:66) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.core.util.LoggingUtil.logWithCorrelationId(LoggingUtil.java:14) ~[multiapps-controller-core-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.SyncFlowableStep.execute(SyncFlowableStep.java:66) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.flowable.engine.impl.delegate.invocation.JavaDelegateInvocation.invoke(JavaDelegateInvocation.java:35) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.delegate.invocation.DelegateInvocation.proceed(DelegateInvocation.java:32) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.delegate.invocation.DefaultDelegateInterceptor.handleInvocation(DefaultDelegateInterceptor.java:26) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.bpmn.behavior.ServiceTaskDelegateExpressionActivityBehavior.execute(ServiceTaskDelegateExpressionActivityBehavior.java:161) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeActivityBehavior(ContinueProcessOperation.java:298) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.executeSynchronous(ContinueProcessOperation.java:175) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.continueThroughFlowNode(ContinueProcessOperation.java:125) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.agenda.ContinueProcessOperation.run(ContinueProcessOperation.java:88) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.lambda$new$0(AbstractEngineConfiguration.java:195) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:130) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:114) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:72) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26) ~[flowable-engine-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105) ~[flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57) ~[flowable-spring-common-6.8.0.jar:6.8.0]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) [spring-tx-6.2.8.jar:6.2.8]
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57) [flowable-spring-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:51) [flowable-engine-common-6.8.0.jar:6.8.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.executeJob(ExecuteAsyncRunnable.java:127) [flowable-job-service-6.8.0.jar:6.8.0]
+	at org.flowable.job.service.impl.asyncexecutor.ExecuteAsyncRunnable.run(ExecuteAsyncRunnable.java:115) [flowable-job-service-6.8.0.jar:6.8.0]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+Caused by: org.cloudfoundry.multiapps.common.SLException: Error creating service "fiori-xsuaa-service" from offering "xsuaa" and plan "application": Error creating application null (Error parsing xs-security.json data: Unrecognized field "oauth2-configuration" (class com.sap.xs2.security.authorization.XSRoleTemplate), not marked as ignorable (9 known properties: "scope-references", "attributeReferences", "default-role-name", "attribute-references", "attributeReferencesFromNames", "name", "appId", "description", "scopeReferences"])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 144] (through reference chain: com.sap.xs2.security.authorization.XSApp["role-templates"]->java.util.ArrayList[0]->com.sap.xs2.security.authorization.XSRoleTemplate["oauth2-configuration"]))
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.handleFailedState(PollServiceCreateOrUpdateOperationsExecution.java:98) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceCreateOrUpdateOperationsExecution.reportServiceState(PollServiceCreateOrUpdateOperationsExecution.java:79) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.reportDetailedServicesStates(PollServiceOperationsExecution.java:124) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.PollServiceOperationsExecution.execute(PollServiceOperationsExecution.java:57) ~[multiapps-controller-process-1.193.1.jar:?]
+	at org.cloudfoundry.multiapps.controller.process.steps.AsyncFlowableStep.executeStepExecution(AsyncFlowableStep.java:25) ~[multiapps-controller-process-1.193.1.jar:?]
+	... 31 more
+#2025 07 18 12:11:33.067#Z#DEBUG#3f550867-63d0-11f0-86e9-eeee0a8debe6.OPERATION#flowable-async-job-executor-thread-3401#
+Step "Create" finished#
